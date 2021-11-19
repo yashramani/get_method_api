@@ -34,7 +34,7 @@ class _HomepageState extends State<Homepage> {
             return ListView.builder(
               padding: EdgeInsets.all(5),
                 itemCount: snapshot.data!.data!.length,
-                itemBuilder: (context, index) {
+                 itemBuilder: (context, index) {
                   return ListTile(
                     leading: CircleAvatar(
                       radius: 30.0,
