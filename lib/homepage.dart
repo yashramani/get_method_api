@@ -17,11 +17,6 @@ class _HomepageState extends State<Homepage> {
   Model model = Model();
 
   @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
